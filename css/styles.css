@@ -1,13 +1,77 @@
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #18a0fb;
+    --primary-white-color: #ffffff;
 }
 
-.raleway-regular{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, serif;
+    letter-spacing: -0.015em;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo {
+    color: var(--title-text-color);
+    font-family: Raleway, serif;
+    font-size: 26px;
     font-weight: 700;
-    font-style: normal;
+    text-decoration: none;
 }
+.logo:hover {
+    color: var(--accent-color);
+}
+.logo>span{
+    color:#18a0fb
+}
+ul{
+    list-style-type: none;
+}
+.about{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.about:hover{
+    color: var(--accent-color);
+    }
 
+.portfolio{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.portfolio:hover {
+    color: var(--accent-color);
+}
+.contacts{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contacts:hover {
+    color: var(--accent-color);
+}
+.mail{
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.mail:hover{
+    color: var(--accent-color);
+}
+.phone{
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.phone:hover{
+    color: var(--accent-color);
+}
