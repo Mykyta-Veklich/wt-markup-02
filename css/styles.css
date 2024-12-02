@@ -75,3 +75,21 @@ ul{
 .phone:hover{
     color: var(--accent-color);
 }
+.hero{
+background-color: #2F303A;
+color:#ffffff;
+font-size: 44px;
+line-height: 60pt;
+font-weight: 900;
+}
+.button{
+    font-size: 16px;
+    color:#ffffff;
+    font-weight: 700;
+    background-color:#2196F3;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+}
