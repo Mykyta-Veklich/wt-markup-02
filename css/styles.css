@@ -15,7 +15,7 @@ body {
 }
 .logo {
     color: var(--title-text-color);
-    font-family: Raleway, serif;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
@@ -94,66 +94,90 @@ text-align: center;
     height: 50px;
     width: 200px;
 }
+.flex-container{
+    display: flex;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    }
+
 .attention{
     color: var(--primary-text-color);
     font-size: 14px;
     font-weight: 700;
+    line-height: 16px;
     text-transform: uppercase;
 }
-.p1{
+.p{
     font-size: 14px;
     font-weight: 400;
     color: #757575;
     line-height: 24px;
-    
 }
+
 .punctuality{
     color: var(--primary-text-color);
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.p2{
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
-    line-height: 24px;
-}
+
 .planning{
     color: var(--primary-text-color);
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.p3{
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
-    line-height: 24px;
-}
+
 .technologies{
     color: var(--primary-text-color);
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.p4{
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
-    line-height: 24px;
-}
+
 .works{
     font-size: 36px;
     font-weight: 700px;
 }
 
-.image1{
+.image{
     border-radius: 10px;
 }
-.image2 {
-    border-radius: 10px;
+
+
+
+.team{
+    background-color:#F5F4FA;
 }
-.image3 {
-    border-radius: 10px;
+.team-title{
+    font-size: 36px;
+    font-weight: 700px;
+}
+.cards{
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.2);
+    background-color:#ffffff;
+    transition: 0.3s;
+    width: 270px;
+    height: 428px;
+    border-radius: 5px;
+}
+
+.container{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.profession{
+    color:#757575;
+    font-weight: 400;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
 }

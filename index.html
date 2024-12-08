@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page markup</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -52,34 +49,42 @@
             <section>
                 <ul>
                 <li>
+                <div class="flex-container">
                 <svg class="button-icon1" width="70" height="70">
                     <use href="./images/sprite.svg#antenna"></use>
                 </svg>
+                </div>
                 <h3 class="attention">Увага до деталей</h3>
-                <p class="p1">Lorem Ipsum - це текст-"риба", що <br> часто використовується у веб-<br>дизайні.</p>
+                <p class="p">Lorem Ipsum - це текст-"риба", що <br> часто використовується у веб-<br>дизайні.</p>
                 </li>
                 <li>
+                <div class="flex-container">
                 <svg class="button-icon2" width="70" height="70">
                     <use href="./images/sprite.svg#clock"></use>
                 </svg>
+                </div>
                 <h3 class="punctuality">Пунктуальність</h3>
-                <p class="p2">Lorem Ipsum є стандартною "рибою" <br> для текстів на латиниці з початку XVI <br> століття.</p>
+                <p class="p">Lorem Ipsum є стандартною "рибою" <br> для текстів на латиниці з початку XVI <br> століття.</p>
                 </li>
 
                 <li>
+                <div class="flex-container">
                 <svg class="button-icon3" width="70" height="70">
                     <use href="./images/sprite.svg#diagram"></use>
                 </svg>
+                </div>
                 <h3 class="planning">Планування</h3>
-                <p class="p3">Lorem Ipsum - це текст-"риба", що <br> часто використовується у веб- <br> дизайні.</p>
+                <p class="p">Lorem Ipsum - це текст-"риба", що <br> часто використовується у веб- <br> дизайні.</p>
                 </li>
 
                 <li>
+                <div class="flex-container">
                 <svg class="button-icon4" width="70" height="70">
                     <use href="./images/sprite.svg#astronaut"></use>
                 </svg>
+                </div>
                 <h3 class="technologies">Сучасні технології</h3>
-                <p class="p4">Lorem Ipsum є стандартною "рибою" <br> для текстів на латиниці з початку XVI <br> століття.</p>
+                <p class="p">Lorem Ipsum є стандартною "рибою" <br> для текстів на латиниці з початку XVI <br> століття.</p>
                 </li>
             </ul>
             </section>
@@ -87,14 +92,14 @@
                 <h2 class="works">Роботи на яких спеціалізуємось</h2>
                 <ul>
                     <li>
-                    <img class="image1" src="./images/box1.jpg"
+                    <img class="image" src="./images/box1.jpg"
                     alt="Розробка програмного продукту"
                     width="370" height="294"
                     />
                     </li>
 
                     <li>
-                    <img class="image2"
+                    <img class="image"
                     src="./images/box2.jpg"
                     alt="Планування оптимальних рішень"
                     width="370" height="294"
@@ -102,7 +107,7 @@
                     </li>
 
                     <li>
-                    <img class="image3"
+                    <img class="image"
                     src="./images/box3.jpg"
                     alt="Розробка маркетингових стратегій"
                     width="370" height="294"
@@ -111,17 +116,20 @@
                 </ul>
             </section>
 
-            <section>
-                <h2>Наша команда</h2>
+            <section class="team">
+                <h2 class="team-title">Наша команда</h2>
                 <ul>
                 <li>
+                <div class="cards">
                 <img
                 src="images/teamcard1.jpg"
                 alt="Перший учасник"
                 width="270" height="260"
                 />
+                <div class="container">
                 <p>Betty Foriz</p>
-                <p>Product Designer</p>
+                <p class="profession">Product Designer</p>
+                <div class="social-icons">
                 <li>
                 <svg class="button-icon" width="20" height="20">
                     <use href="./images/sprite.svg#instagram"></use>
@@ -144,16 +152,24 @@
                 <svg class="button-icon" width="20" height="20">
                     <use href="./images/sprite.svg#linkedin"></use>
                 </svg>
+                </div>
+                </div>
+                </div>
+                </li>
                 </li>
 
                 <li>
+                <div class="cards">
                 <img
                 src="images/teamcard2.jpg"
                 alt="Другий учасник"
                 width="270" height="260"
                 />
+                <div class="container">
                 <p>Folke Booke</p>
-                <p>Frontend Developer</p>
+                <p class="profession">Frontend Developer</p>
+                </div>
+                </div>
                 <li>
                     <svg class="button-icon" width="20" height="20">
                         <use href="./images/sprite.svg#instagram"></use>
@@ -179,13 +195,17 @@
                 </li>
 
                 <li>
+                <div class="cards">
                 <img 
                 src="images/teamcard3.jpg"
                 alt="Третій учасник"
                 width="270" height="260"
                 />
+                <div class="container">
                 <p>Mito Dito</p>
-                <p>Marketing</p>
+                <p class="profession">Marketing</p>
+                </div>
+                </div>
                 <li>
                     <svg class="button-icon" width="20" height="20">
                         <use href="./images/sprite.svg#instagram"></use>
@@ -211,13 +231,17 @@
                 </li>
                 
                 <li>
+                <div class="cards">
                 <img
                 src="images/teamcard4.jpg"
                 alt="Четвертий учасник"
                 width="270" height="260"
                 />
+                <div class="container">
                 <p>Lỏa Spetnaz</p>
-                <p>UI Designer</p>
+                <p class="profession">UI Designer</p>
+                </div>
+                </div>
                 <li>
                     <svg class="button-icon" width="20" height="20">
                         <use href="./images/sprite.svg#instagram"></use>
